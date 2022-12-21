@@ -18,8 +18,8 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: calc(24/16);
-    letter-spacing: 0.02em;
+    /* line-height: calc(24/16);
+    letter-spacing: 0.02em; */
     color: var(--body-text-color);
 }
 /* Header styles */
@@ -72,8 +72,6 @@ body {
 /* Main page styles */
 .baner-section {
     background-color: var(--background-color-inverter);
-    max-width: 1440px;
-    height: 600px;
 }
 .banner-title {
     font-weight: 900;
@@ -81,7 +79,6 @@ body {
     line-height: calc(60/56);
     letter-spacing: 0.02em;
     width: 600px;
-    height: 120px;
     color: var(--inverter-color);
 }
 .banner-btn {
@@ -122,6 +119,18 @@ body {
     line-height: calc(24/20);
     letter-spacing: 0.02em;
     color: var(--title-text-color);
+}
+.visually-hidden {
+  position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
 .team {
     background-color: var(--background-color-translucent);
@@ -200,7 +209,6 @@ body {
 /* Footer styles */
 .footer-background {
     background-color: var(--background-color-inverter);
-    max-width: 1440px;
     height: 310px;
 }
 .logo-part-footer {
